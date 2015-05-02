@@ -21,3 +21,4 @@ Lote.create!(numero: 3,
 )
 # . . .
 
+### Aqui eh uma nova oportunidade!
