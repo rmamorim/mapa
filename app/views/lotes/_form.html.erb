@@ -1,0 +1,33 @@
+<%= form_for(@lote) do |f| %>
+  <% if @lote.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@lote.errors.count, "error") %> prohibited this lote from being saved:</h2>
+
+      <ul>
+      <% @lote.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :numero %><br>
+    <%= f.number_field :numero %>
+  </div>
+  <div class="field">
+    <%= f.label :superficie %><br>
+    <%= f.text_field :superficie %>
+  </div>
+  <div class="field">
+    <%= f.label :memorial %><br>
+    <%= f.text_area :memorial %>
+  </div>
+  <div class="field">
+    <%= f.label :coord %><br>
+    <%= f.text_area :coord %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

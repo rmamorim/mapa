@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  numero: 1
+  superficie: 9.99
+  memorial: MyText
+  coord: MyText
+
+two:
+  numero: 1
+  superficie: 9.99
+  memorial: MyText
+  coord: MyText

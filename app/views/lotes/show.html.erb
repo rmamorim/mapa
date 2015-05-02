@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Numero:</strong>
+  <%= @lote.numero %>
+</p>
+
+<p>
+  <strong>Superficie:</strong>
+  <%= @lote.superficie %>
+</p>
+
+<p>
+  <strong>Memorial:</strong>
+  <%= @lote.memorial %>
+</p>
+
+<p>
+  <strong>Coord:</strong>
+  <%= @lote.coord %>
+</p>
+
+<%= link_to 'Edit', edit_lote_path(@lote) %> |
+<%= link_to 'Back', lotes_path %>
