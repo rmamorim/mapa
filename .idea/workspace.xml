@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d254f44-6cc1-46bc-a318-14591b86a8b6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mapa.iws" />
@@ -645,7 +644,7 @@
       <workItem from="1425494528698" duration="625000" />
       <workItem from="1426780560339" duration="27000" />
       <workItem from="1430607658761" duration="693000" />
-      <workItem from="1430608635954" duration="144000" />
+      <workItem from="1430608635954" duration="174000" />
     </task>
     <task id="LOCAL-00001" summary="Segundo Commit!">
       <created>1430608335057</created>
@@ -659,11 +658,17 @@
       <option name="project" value="LOCAL" />
       <updated>1430608666044</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Segundo Commit!">
+      <created>1430608783348</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1430608783348</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40552000" />
+    <option name="totallyTimeSpent" value="40582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
