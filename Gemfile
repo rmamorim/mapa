@@ -38,3 +38,5 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'geocoder'
 gem 'gmaps4rails'
+
+# Essa eh uma mensagem deixada pelo Ricardo para entender o Git
